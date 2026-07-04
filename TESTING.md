@@ -1,7 +1,5 @@
 # Testing guide — data.world bulk downloader
 
-Hand this whole folder to the tester. It contains everything needed.
-
 ## What this tool does
 Backs up all data.world datasets **owned by the authenticated user** before the service
 shuts down. Two independent scripts (pick either — same dataset list, different output):
