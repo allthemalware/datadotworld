@@ -1,0 +1,7 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Downloaded backups (never commit dataset data)
+data.world_backup/
+*.zip
