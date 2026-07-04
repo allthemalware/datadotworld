@@ -1,7 +1,3 @@
-# data.world Bulk Downloader
-
-Two scripts for emergency bulk download before shutdown.
-
 ## Setup (5 min)
 
 1. **Get API token:**
@@ -87,8 +83,3 @@ python3 download_dataworld_api.py --list
 datasets whose files already exist are skipped.
 
 ---
-
-For bulk data preservation on Arch Linux with your setup, consider also:
-- Parallel downloads with `GNU parallel` wrapper if needed
-- MD5 checksums for validation (can add to script)
-- Compress output with `tar.xz` for archive storage
